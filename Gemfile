@@ -4,7 +4,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 3.4"
 
 # The theme for the site
-gem "alembic-jekyll-theme", "~> 2.1"
+gem "alembic-jekyll-theme", "~> 2.2"
 
 # The plugins for the site
 group :jekyll_plugins do
@@ -13,6 +13,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jekyll-seo-tag"
   gem "jekyll-redirect-from"
+  gem "jekyll-default-layout"
   gem "jekyll-feed"
   gem "jemoji"
 end
