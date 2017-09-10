@@ -218,6 +218,18 @@ a {
     font-style: normal;
     font-weight: map-get($headingtype, regular);
     width: 100%;
+    border: 1px solid #cccccc;
+    th {
+      border: 1px solid #cccccc;
+      padding: 4px;
+    }
+    tr {
+      border-bottom: 1px solid #cccccc;
+    }
+    td {
+      border-right: 1px solid #cccccc;
+      padding:4px;
+    }
 
     thead {
 
